@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 	private Rigidbody2D rb; 
 	private Animator an; 
 	private bool shooting;
+	private bool facingRight = true;
 	private float timeShooting;
 	private Vector2 shootDirection;
 
@@ -27,7 +28,8 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		bc = GetComponent<BoxCollider2D>();
 		rb = GetComponent<Rigidbody2D>();
-		an = GetComponentInChildren<Animator>();
+		//an = GetComponentInChildren<Animator>();
+		an = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -124,5 +126,12 @@ public class PlayerController : MonoBehaviour {
 		if( other.collider.tag == "Ground" ){
 			UpdateMove();
 		}
+	}
+
+	void Flip() {
+		facingRight = !facingRight;
+		Vector3 tempScale = transform.localScale;
+		tempScale.x *= -1;
+		transform.localScale = tempScale;
 	}
 }
