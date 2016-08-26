@@ -49,8 +49,10 @@
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\GroundController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\SmoothFollow2D.cs" />
      <Compile Include="Assets\Scripts\TestMovementScript.cs" />
      <Compile Include="Assets\Scripts\V2int.cs" />
+     <Compile Include="Assets\Scripts\WheelJointCarMovement.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

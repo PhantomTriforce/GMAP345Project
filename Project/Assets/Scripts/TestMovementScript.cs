@@ -3,7 +3,8 @@ using System.Collections;
 
 public class TestMovementScript : MonoBehaviour {
 	
-	public float maxSpeed = 5f;
+	public float forwardSpeed = 5f;
+	public float reverseSpeed = 2.5f;
 	public float jumpForce = 350f;
 
 	private bool facingRight = true;
@@ -25,7 +26,12 @@ public class TestMovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float move = Input.GetAxis("Horizontal");
-		rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
+		if(facingRight) {
+			rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
+		}
+		else if(!facingRight) {
+			rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
+		}
 
 		anim.SetFloat("Speed", Mathf.Abs(move));
 
@@ -45,7 +51,7 @@ public class TestMovementScript : MonoBehaviour {
 	void Flip() {
 		facingRight = !facingRight;
 		Vector3 tempScale = transform.localScale;
-		tempScale.x *= -1;
+		//tempScale.x *= -1;
 		transform.localScale = tempScale;
 	}
 }
