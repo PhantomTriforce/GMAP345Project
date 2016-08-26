@@ -170,7 +170,7 @@ GameObject:
   - 64: {fileID: 1057429418}
   - 23: {fileID: 1057429417}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1057429416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 9.307, z: 0}
+  m_LocalPosition: {x: 3.514, y: 9.307, z: 0}
   m_LocalScale: {x: 60, y: 30, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -246,9 +246,9 @@ GameObject:
   - 50: {fileID: 1126320167}
   - 58: {fileID: 1126320166}
   - 114: {fileID: 1126320168}
+  - 114: {fileID: 1126320171}
   - 235: {fileID: 1126320170}
   - 235: {fileID: 1126320169}
-  - 114: {fileID: 1126320171}
   m_Layer: 0
   m_Name: Gungnir_Tank_(idle)
   m_TagString: Untagged
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126320162}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2624f49b75773ac4390d3fc50d5de8d7, type: 3}
   m_Name: 
@@ -386,8 +386,8 @@ WheelJoint2D:
   m_Suspension:
     m_DampingRatio: 1
     m_Frequency: 10
-    m_Angle: 90
-  m_UseMotor: 1
+    m_Angle: 0
+  m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 100000
@@ -409,8 +409,8 @@ WheelJoint2D:
   m_Suspension:
     m_DampingRatio: 1
     m_Frequency: 10
-    m_Angle: 90
-  m_UseMotor: 1
+    m_Angle: 0
+  m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 100000
