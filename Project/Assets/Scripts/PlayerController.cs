@@ -3,13 +3,16 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
+    public int playerNumber;
 	public float velocity; 
 	public float bulletMaxInitialVelocity;
 	public float maxTimeShooting; 
 	public BoxCollider2D groundBC; 
-	public GameObject bulletPrefab; 
+	public GameObject bulletPrefab;
+    public float forwardSpeed = 5f;
+    public float reverseSpeed = 2.5f;
 
-	private BoxCollider2D bc; 
+    private BoxCollider2D bc; 
 	private Rigidbody2D rb; 
 	private Animator an; 
 	private bool shooting;
@@ -22,29 +25,57 @@ public class PlayerController : MonoBehaviour {
 	public Transform bodyTransform; 
 	public Transform bulletInitialTransform; 
 
-	private bool targetting; 
+	private bool targetting;
+    private Animator anim;
+    private GameObject gameController;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		bc = GetComponent<BoxCollider2D>();
 		rb = GetComponent<Rigidbody2D>();
-		//an = GetComponentInChildren<Animator>();
-		an = GetComponent<Animator>();
-	}
+        anim = GetComponent<Animator>();
+        an = GetComponent<Animator>();
+        gameController = GameObject.Find("GameController");
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		if( Input.GetKeyDown(KeyCode.W) ){
-			targetting = true;
-			gunTransform.gameObject.SetActive(true);
-		}
-		if( targetting ){
-			UpdateTargetting();
-			UpdateShootDetection();
-			if( shooting )
-				UpdateShooting();
-		}        
-	}
+
+        int turn = gameController.GetComponent<GameController>().turn; ;
+
+        if (turn == 1 && gameObject.tag == "RedPlayer")
+        {
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                targetting = true;
+                gunTransform.gameObject.SetActive(true);
+            }
+            if (true)
+            {
+                UpdateTargetting();
+                UpdateShootDetection();
+                if (shooting)
+                    UpdateShooting();
+            }
+            UpdateMove();
+        }
+        else if (turn == 2 && gameObject.tag == "BluePlayer")
+        {
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                targetting = true;
+                gunTransform.gameObject.SetActive(true);
+            }
+            if (true)
+            {
+                UpdateTargetting();
+                UpdateShootDetection();
+                if (shooting)
+                    UpdateShooting();
+            }
+            UpdateMove();
+        }
+    }
     
 	void UpdateShootDetection(){
 		if( Input.GetMouseButtonDown(0)){
@@ -106,32 +137,33 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void UpdateMove(){
-		if( Input.GetKey(KeyCode.D) ){
-			rb.velocity = Vector2.right*velocity;
-			if( bodyTransform.localScale.x < 0f )
-				bodyTransform.localScale = new Vector3( -bodyTransform.localScale.x, bodyTransform.localScale.y, 0f );
-            
-		}
-		else if( Input.GetKey(KeyCode.A) ){
-			rb.velocity = -Vector2.right*velocity;
-			if( bodyTransform.localScale.x > 0f )
-				bodyTransform.localScale = new Vector3( -bodyTransform.localScale.x, bodyTransform.localScale.y, 0f );            
-		}
-		else{
-			rb.velocity = Vector2.zero;
-		}
-	}
-    
-	void OnCollisionStay2D( Collision2D other ){
-		if( other.collider.tag == "Ground" ){
-			UpdateMove();
-		}
-	}
+        float move = Input.GetAxis("Horizontal");
+        if (facingRight)
+        {
+            rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
+        }
+        else if (!facingRight)
+        {
+            rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
+        }
 
-	void Flip() {
-		facingRight = !facingRight;
-		Vector3 tempScale = transform.localScale;
-		tempScale.x *= -1;
-		transform.localScale = tempScale;
-	}
+        anim.SetFloat("Speed", Mathf.Abs(move));
+
+        if (move > 0 && !facingRight)
+        {
+            Flip();
+        }
+        else if (move < 0 && facingRight)
+        {
+            Flip();
+        }
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 tempScale = transform.localScale;
+        //tempScale.x *= -1;
+        transform.localScale = tempScale;
+    }
 }
