@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        int turn = gameController.GetComponent<GameController>().turn; ;
+        int turn = gameController.GetComponent<GameController>().turn;
 
         if (turn == 1 && gameObject.tag == "RedPlayer")
         {
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
                 targetting = true;
                 gunTransform.gameObject.SetActive(true);
             }
-            if (true)
+            if (targetting)
             {
                 UpdateTargetting();
                 UpdateShootDetection();
@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour {
                 targetting = true;
                 gunTransform.gameObject.SetActive(true);
             }
-            if (true)
+            if (targetting)
             {
                 UpdateTargetting();
                 UpdateShootDetection();

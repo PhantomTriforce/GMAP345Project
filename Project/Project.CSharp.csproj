@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\GroundController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SmoothFollow2D.cs" />
+    <Compile Include="Assets\Scripts\TankHealth.cs" />
     <Compile Include="Assets\Scripts\TestMovementScript.cs" />
     <Compile Include="Assets\Scripts\V2int.cs" />
     <Compile Include="Assets\Scripts\WheelJointCarMovement.cs" />

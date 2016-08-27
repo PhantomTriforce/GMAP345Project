@@ -9,11 +9,14 @@ public class BulletController : MonoBehaviour {
 	public GameObject bulletSmoke;
 	public CircleCollider2D destructionCircle;
 	public static GroundController groundController;
+    public int damage = 20;
+    private GameObject gameController;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		rb = GetComponent<Rigidbody2D>();
-	}
+        gameController = GameObject.Find("GameController");
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -28,12 +31,34 @@ public class BulletController : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D( Collision2D coll ){
-		if( coll.collider.tag == "Ground" ){
-			updateAngle = false;
-			bulletSmoke.SetActive(false);
-			groundController.DestroyGround( destructionCircle );
-			Destroy(gameObject);
-		}
-	}
+    void OnCollisionEnter2D(Collision2D coll) {
+        int turn = gameController.GetComponent<GameController>().turn;
+
+        if (coll.collider.tag == "Ground") {
+            updateAngle = false;
+            bulletSmoke.SetActive(false);
+            groundController.DestroyGround(destructionCircle);
+            Destroy(gameObject);
+        }
+        if (turn == 2)
+        {
+            if (coll.collider.tag == "RedPlayer")
+            {
+                updateAngle = false;
+                bulletSmoke.SetActive(false);
+                groundController.DestroyGround(destructionCircle);
+
+                Transform healthBarTransform = coll.gameObject.transform.FindChild("HealthBar");
+                TankHealth healthBar = healthBarTransform.gameObject.GetComponent<TankHealth>();
+                healthBar.currentHealth -= Mathf.Max(damage, 7);
+
+                if (healthBar.currentHealth <= 0)
+                {
+                    Destroy(coll.gameObject);
+                }
+
+                Destroy(gameObject);
+            }
+        }
+    }
 }
