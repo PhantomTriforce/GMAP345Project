@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour {
 	public Transform bulletInitialTransform; 
 
 	private bool targetting;
+	private bool moving;
     private Animator anim;
     private GameObject gameController;
 
@@ -37,42 +38,48 @@ public class PlayerController : MonoBehaviour {
         an = GetComponent<Animator>();
         gameController = GameObject.Find("GameController");
     }
-	
+
+	/*public void OnClickFire() {
+		targetting = true;
+	}*/
+
 	// Update is called once per frame
 	void Update () {
 
-        int turn = gameController.GetComponent<GameController>().turn; ;
+        int turn = gameController.GetComponent<GameController>().turn;
+		targetting = gameController.GetComponent<GameController>().targetting;
+		moving = gameController.GetComponent<GameController>().moving;
 
         if (turn == 1 && gameObject.tag == "RedPlayer")
         {
-            if (Input.GetKeyDown(KeyCode.W))
+            if (targetting)
             {
-                targetting = true;
-                gunTransform.gameObject.SetActive(true);
-            }
-            if (true)
-            {
+				gunTransform.gameObject.SetActive(true);
                 UpdateTargetting();
                 UpdateShootDetection();
                 if (shooting)
                     UpdateShooting();
             }
+			else
+			{
+				gunTransform.gameObject.SetActive(false);
+			}
             UpdateMove();
         }
         else if (turn == 2 && gameObject.tag == "BluePlayer")
         {
-            if (Input.GetKeyDown(KeyCode.W))
+			if (targetting)
             {
-                targetting = true;
-                gunTransform.gameObject.SetActive(true);
-            }
-            if (true)
-            {
+				gunTransform.gameObject.SetActive(true);
                 UpdateTargetting();
                 UpdateShootDetection();
                 if (shooting)
                     UpdateShooting();
             }
+			else
+			{
+				gunTransform.gameObject.SetActive(false);
+			}
             UpdateMove();
         }
     }
@@ -91,11 +98,13 @@ public class PlayerController : MonoBehaviour {
 			shooting = false;
 			shootingEffect.SetActive(false);
 			Shoot();
+			gameController.GetComponent<GameController>().targetting = false;
 		}
 		if( timeShooting > maxTimeShooting ){
 			shooting = false;
 			shootingEffect.SetActive(false);
 			Shoot ();
+			gameController.GetComponent<GameController>().targetting = false;
 		}
 	}
     
@@ -138,11 +147,11 @@ public class PlayerController : MonoBehaviour {
 
 	void UpdateMove(){
         float move = Input.GetAxis("Horizontal");
-        if (facingRight)
+        if (facingRight && moving)
         {
             rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
         }
-        else if (!facingRight)
+        else if (!facingRight && moving)
         {
             rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
         }
