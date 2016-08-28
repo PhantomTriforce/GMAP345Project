@@ -33,8 +33,7 @@ public class PlayerController : MonoBehaviour
 	private GameObject red1, blue1;
 
 	private float distanceRed, distanceBlue;
-
-    // Use this for initialization
+    
     void Start()
     {
         bc = GetComponent<BoxCollider2D>();
@@ -45,53 +44,40 @@ public class PlayerController : MonoBehaviour
 		red1 = GameObject.Find("Red_1");
 		blue1 = GameObject.Find("Blue_1");
     }
-
-    /*public void OnClickFire() {
-		targetting = true;
-	}*/
-
-    // Update is called once per frame
+    
     void Update()
     {
-
         int turn = gameController.GetComponent<GameController>().turn;
         targetting = gameController.GetComponent<GameController>().targetting;
         moving = gameController.GetComponent<GameController>().moving;
-		distanceRed = red1.GetComponent<TankMovementTracker>().totalDistance - 14.59712f;
-		distanceBlue = blue1.GetComponent<TankMovementTracker>().totalDistance- 14.92336f;	
+		distanceRed = red1.GetComponent<TankMovementTracker>().totalDistance;
+		distanceBlue = blue1.GetComponent<TankMovementTracker>().totalDistance;	
 
         if (turn == 1 && gameObject.tag == "RedPlayer")
         {
-            if (targetting)
-            {
-                gunTransform.gameObject.SetActive(true);
-                UpdateTargetting();
-                UpdateShootDetection();
-                if (shooting)
-                    UpdateShooting();
-            }
-            else
-            {
-                gunTransform.gameObject.SetActive(false);
-            }
-            UpdateMove();
+            UpdateAll();
         }
         else if (turn == 2 && gameObject.tag == "BluePlayer")
         {
-            if (targetting)
-            {
-                gunTransform.gameObject.SetActive(true);
-                UpdateTargetting();
-                UpdateShootDetection();
-                if (shooting)
-                    UpdateShooting();
-            }
-            else
-            {
-                gunTransform.gameObject.SetActive(false);
-            }
-            UpdateMove();
+            UpdateAll();
         }
+    }
+
+    void UpdateAll()
+    {
+        if (targetting)
+        {
+            gunTransform.gameObject.SetActive(true);
+            UpdateTargetting();
+            UpdateShootDetection();
+            if (shooting)
+                UpdateShooting();
+        }
+        else
+        {
+            gunTransform.gameObject.SetActive(false);
+        }
+        UpdateMove();
     }
 
     void UpdateShootDetection()

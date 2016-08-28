@@ -4,14 +4,14 @@ using System.Collections;
 public class GroundController : MonoBehaviour
 {
     private SpriteRenderer sr;
-    private float widthWorld, heightWorld;
-    private int widthPixel, heightPixel;
+    public float widthWorld, heightWorld;
+    public int widthPixel, heightPixel;
     private Color transp;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        Texture2D tex = (Texture2D)Resources.Load("ground_test");
+        Texture2D tex = (Texture2D)Resources.Load("GroundTall");
         Texture2D tex_clone = (Texture2D)Instantiate(tex);
         sr.sprite = Sprite.Create(tex_clone,
                                   new Rect(0f, 0f, tex_clone.width, tex_clone.height),

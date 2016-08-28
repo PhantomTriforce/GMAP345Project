@@ -16,5 +16,10 @@ public class TankMovementTracker : MonoBehaviour {
 	void Update () {
         totalDistance += Vector3.Distance(transform.position, lastPosition);
         lastPosition = transform.position;
+
+        if (totalDistance < 0)
+        {
+            totalDistance = 0f;
+        }
     }
 }

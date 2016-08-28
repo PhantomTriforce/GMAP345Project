@@ -14,15 +14,18 @@ public class GameController : MonoBehaviour {
 	void Start() {
 		red1 = GameObject.Find("Red_1");
 		blue1 = GameObject.Find("Blue_1");
-	}
+
+        red1.GetComponent<TankMovementTracker>().totalDistance = -17f;
+        blue1.GetComponent<TankMovementTracker>().totalDistance = -17f;
+    }
 
 	void Update() {
-		distanceRed = red1.GetComponent<TankMovementTracker>().totalDistance - 14.59712f;
-		distanceBlue = blue1.GetComponent<TankMovementTracker>().totalDistance - 14.92336f;
+		distanceRed = red1.GetComponent<TankMovementTracker>().totalDistance;
+		distanceBlue = blue1.GetComponent<TankMovementTracker>().totalDistance;
 		if(distanceRed > 20 || distanceBlue > 20) {
 			moveButton.interactable = false;
 		}
-	}
+    }
 
     public void OnClickEndTurn() {
         if(turn == 1) {
@@ -35,8 +38,9 @@ public class GameController : MonoBehaviour {
 		moveButton.interactable = true;
 		moving = false;
 		targetting = false;
-		distanceRed = 0f;
-		distanceBlue = 0f;
+
+        red1.GetComponent<TankMovementTracker>().totalDistance = 0f;
+        blue1.GetComponent<TankMovementTracker>().totalDistance = 0f;
     }
 
     public void OnClickFire() {

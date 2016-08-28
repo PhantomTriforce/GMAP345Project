@@ -40,25 +40,38 @@ public class BulletController : MonoBehaviour {
             groundController.DestroyGround(destructionCircle);
             Destroy(gameObject);
         }
+        if (turn == 1)
+        {
+            if (coll.collider.tag == "BluePlayer")
+            {
+
+                healthDetection(coll);
+            }
+        }
         if (turn == 2)
         {
             if (coll.collider.tag == "RedPlayer")
             {
-                updateAngle = false;
-                bulletSmoke.SetActive(false);
-                groundController.DestroyGround(destructionCircle);
-
-                Transform healthBarTransform = coll.gameObject.transform.FindChild("HealthBar");
-                TankHealth healthBar = healthBarTransform.gameObject.GetComponent<TankHealth>();
-                healthBar.currentHealth -= Mathf.Max(damage, 7);
-
-                if (healthBar.currentHealth <= 0)
-                {
-                    Destroy(coll.gameObject);
-                }
-
-                Destroy(gameObject);
+                healthDetection(coll);
             }
         }
+    }
+
+    private void healthDetection(Collision2D coll)
+    {
+        updateAngle = false;
+        bulletSmoke.SetActive(false);
+        groundController.DestroyGround(destructionCircle);
+
+        Transform healthBarTransform = coll.gameObject.transform.FindChild("HealthBar");
+        TankHealth healthBar = healthBarTransform.gameObject.GetComponent<TankHealth>();
+        healthBar.currentHealth -= Mathf.Max(damage, 7);
+
+        if (healthBar.currentHealth <= 0)
+        {
+            Destroy(coll.gameObject);
+        }
+
+        Destroy(gameObject);
     }
 }
