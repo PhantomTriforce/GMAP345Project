@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TankMovementTracker : MonoBehaviour {
 
-    public float maxDistance = 50f;
+    //public float maxDistance = 50f;
     public float totalDistance = 0f;
     Vector3 lastPosition;
 

@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour
     private bool moving;
     private Animator anim;
     private GameObject gameController;
+	private GameObject red1, blue1;
+
+	private float distanceRed, distanceBlue;
 
     // Use this for initialization
     void Start()
@@ -39,6 +42,8 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         an = GetComponent<Animator>();
         gameController = GameObject.Find("GameController");
+		red1 = GameObject.Find("Red_1");
+		blue1 = GameObject.Find("Blue_1");
     }
 
     /*public void OnClickFire() {
@@ -52,6 +57,8 @@ public class PlayerController : MonoBehaviour
         int turn = gameController.GetComponent<GameController>().turn;
         targetting = gameController.GetComponent<GameController>().targetting;
         moving = gameController.GetComponent<GameController>().moving;
+		distanceRed = red1.GetComponent<TankMovementTracker>().totalDistance - 14.59712f;
+		distanceBlue = blue1.GetComponent<TankMovementTracker>().totalDistance- 14.92336f;	
 
         if (turn == 1 && gameObject.tag == "RedPlayer")
         {
@@ -160,13 +167,23 @@ public class PlayerController : MonoBehaviour
     void UpdateMove()
     {
         float move = Input.GetAxis("Horizontal");
-        if (facingRight && moving)
+		if (facingRight && moving)
         {
-            rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
+			if(gameObject.tag == "RedPlayer" && distanceRed <= 20) {
+				rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
+			}
+			else if(gameObject.tag == "BluePlayer" && distanceBlue <= 20) {
+				rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
+			}
         }
         else if (!facingRight && moving)
         {
-            rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
+			if(gameObject.tag == "RedPlayer" && distanceRed <= 20) {
+				rb.velocity = new Vector2(move * reverseSpeed, rb.velocity.y);
+			}
+			else if(gameObject.tag == "BluePlayer" && distanceBlue <= 20) {
+				rb.velocity = new Vector2(move * forwardSpeed, rb.velocity.y);
+			}
         }
 
         anim.SetFloat("Speed", Mathf.Abs(move));
