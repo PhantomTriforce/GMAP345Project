@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 0cb51b97899948147b8b4f55c4287292
+timeCreated: 1472403022
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_Hamilton_Tank_(movement_Ver2)_0
+    21300002: RED_Hamilton_Tank_(movement_Ver2)_1
+    21300004: RED_Hamilton_Tank_(movement_Ver2)_2
+    21300006: RED_Hamilton_Tank_(movement_Ver2)_3
+    21300008: RED_Hamilton_Tank_(movement_Ver2)_4
+    21300010: RED_Hamilton_Tank_(movement_Ver2)_5
+    21300012: RED_Hamilton_Tank_(movement_Ver2)_6
+    21300014: RED_Hamilton_Tank_(movement_Ver2)_7
+    21300016: RED_Hamilton_Tank_(movement_Ver2)_8
+    21300018: RED_Hamilton_Tank_(movement_Ver2)_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RED_Hamilton_Tank_(movement_Ver2)_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.046875, y: 48.9375}
+        - {x: -85.046875, y: 15.9375}
+        - {x: -85.046875, y: -11.0625}
+        - {x: -61.046875, y: -48.0625}
+        - {x: 72.953125, y: -48.0625}
+        - {x: 85.953125, y: -23.0625}
+        - {x: 85.953125, y: 24.9375}
+        - {x: 29.953125, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.97656, y: 3.9375}
+        - {x: 27.976562, y: 48.9375}
+        - {x: -34.023438, y: 48.9375}
+        - {x: -85.02344, y: 4.9375}
+        - {x: -85.02344, y: -11.0625}
+        - {x: -55.023438, y: -48.0625}
+        - {x: 61.976562, y: -48.0625}
+        - {x: 79.97656, y: -23.0625}
+        - {x: 85.97656, y: -7.0625}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.632812, y: 48.9375}
+        - {x: -84.63281, y: 28.9375}
+        - {x: -84.63281, y: -41.0625}
+        - {x: -81.63281, y: -47.0625}
+        - {x: -78.63281, y: -48.0625}
+        - {x: 75.36719, y: -48.0625}
+        - {x: 86.36719, y: -24.0625}
+        - {x: 86.36719, y: 26.9375}
+        - {x: 68.36719, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_3
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.101562, y: 48.9375}
+        - {x: -85.10156, y: 6.9375}
+        - {x: -85.10156, y: -28.0625}
+        - {x: -73.10156, y: -48.0625}
+        - {x: 67.89844, y: -48.0625}
+        - {x: 85.89844, y: -44.0625}
+        - {x: 85.89844, y: 9.9375}
+        - {x: 33.898438, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_4
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.429688, y: 48.9375}
+        - {x: -85.42969, y: 3.9375}
+        - {x: -85.42969, y: -3.0625}
+        - {x: -83.42969, y: -12.0625}
+        - {x: -56.429688, y: -48.0625}
+        - {x: 64.57031, y: -48.0625}
+        - {x: 85.57031, y: -16.0625}
+        - {x: 85.57031, y: 23.9375}
+        - {x: 27.570312, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_5
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 8
+        width: 182
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.398438, y: 48.9375}
+        - {x: -46.398438, y: 43.9375}
+        - {x: -84.39844, y: 14.9375}
+        - {x: -84.39844, y: -13.0625}
+        - {x: -69.39844, y: -48.0625}
+        - {x: 76.60156, y: -48.0625}
+        - {x: 85.60156, y: -31.0625}
+        - {x: 85.60156, y: 6.9375}
+        - {x: 47.601562, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_6
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.875, y: 48.9375}
+        - {x: -83.875, y: 11.9375}
+        - {x: -83.875, y: -19.0625}
+        - {x: -66.875, y: -48.0625}
+        - {x: 77.125, y: -48.0625}
+        - {x: 86.125, y: -46.0625}
+        - {x: 86.125, y: 22.9375}
+        - {x: 25.125, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_7
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.851562, y: 48.9375}
+        - {x: -83.85156, y: 7.9375}
+        - {x: -83.85156, y: -14.0625}
+        - {x: -58.851562, y: -48.0625}
+        - {x: 66.14844, y: -48.0625}
+        - {x: 86.14844, y: -23.0625}
+        - {x: 86.14844, y: 28.9375}
+        - {x: 37.148438, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_8
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.179688, y: 48.9375}
+        - {x: -84.17969, y: 5.9375}
+        - {x: -84.17969, y: -14.0625}
+        - {x: -53.179688, y: -48.0625}
+        - {x: 61.820312, y: -48.0625}
+        - {x: 85.82031, y: -24.0625}
+        - {x: 85.82031, y: 6.9375}
+        - {x: 48.820312, y: 48.9375}
+    - name: RED_Hamilton_Tank_(movement_Ver2)_9
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 8
+        width: 183
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.71875, y: 48.9375}
+        - {x: -82.71875, y: 24.9375}
+        - {x: -82.71875, y: -32.0625}
+        - {x: -74.71875, y: -48.0625}
+        - {x: 79.28125, y: -48.0625}
+        - {x: 86.28125, y: -46.0625}
+        - {x: 86.28125, y: 41.9375}
+        - {x: 65.28125, y: 48.9375}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

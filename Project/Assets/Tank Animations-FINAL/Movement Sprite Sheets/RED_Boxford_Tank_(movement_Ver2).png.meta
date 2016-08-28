@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: a3717d400a9df1e46ba44ca6bad6da81
+timeCreated: 1472399901
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_Boxford_Tank_(movement_Ver2)_0
+    21300002: RED_Boxford_Tank_(movement_Ver2)_1
+    21300004: RED_Boxford_Tank_(movement_Ver2)_2
+    21300006: RED_Boxford_Tank_(movement_Ver2)_3
+    21300008: RED_Boxford_Tank_(movement_Ver2)_4
+    21300010: RED_Boxford_Tank_(movement_Ver2)_5
+    21300012: RED_Boxford_Tank_(movement_Ver2)_6
+    21300014: RED_Boxford_Tank_(movement_Ver2)_7
+    21300016: RED_Boxford_Tank_(movement_Ver2)_8
+    21300018: RED_Boxford_Tank_(movement_Ver2)_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RED_Boxford_Tank_(movement_Ver2)_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_3
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_5
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_6
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_7
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_8
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    - name: RED_Boxford_Tank_(movement_Ver2)_9
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 9
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -14}
+        - {x: -80, y: -45}
+        - {x: 80, y: -45}
+        - {x: 80, y: 13}
+        - {x: 66, y: 45}
+        - {x: -49, y: 45}
+        - {x: -77, y: 3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

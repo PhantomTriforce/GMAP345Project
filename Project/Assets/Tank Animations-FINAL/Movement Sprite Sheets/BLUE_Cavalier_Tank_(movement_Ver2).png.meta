@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 1daafa51ae8916f43a9162f987a4cba4
+timeCreated: 1472275651
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BLUE_Cavalier_Tank_(movement_Ver2)_0
+    21300002: BLUE_Cavalier_Tank_(movement_Ver2)_1
+    21300004: BLUE_Cavalier_Tank_(movement_Ver2)_2
+    21300006: BLUE_Cavalier_Tank_(movement_Ver2)_3
+    21300008: BLUE_Cavalier_Tank_(movement_Ver2)_4
+    21300010: BLUE_Cavalier_Tank_(movement_Ver2)_5
+    21300012: BLUE_Cavalier_Tank_(movement_Ver2)_6
+    21300014: BLUE_Cavalier_Tank_(movement_Ver2)_7
+    21300016: BLUE_Cavalier_Tank_(movement_Ver2)_8
+    21300018: BLUE_Cavalier_Tank_(movement_Ver2)_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.92, y: 34.582855}
+        - {x: -81.92, y: 9.582855}
+        - {x: -81.92, y: -29.417145}
+        - {x: -60.92, y: -33.417145}
+        - {x: 67.08, y: -33.417145}
+        - {x: 82.08, y: -1.4171448}
+        - {x: 82.08, y: 10.582855}
+        - {x: 45.08, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.89714, y: 34.582855}
+        - {x: -81.89714, y: 28.582855}
+        - {x: -81.89714, y: -30.417145}
+        - {x: -58.89714, y: -33.417145}
+        - {x: 73.10286, y: -33.417145}
+        - {x: 82.10286, y: -17.417145}
+        - {x: 82.10286, y: 17.582855}
+        - {x: 70.10286, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.82001, y: -1.4171448}
+        - {x: 82.82001, y: 8.582855}
+        - {x: 49.820007, y: 34.582855}
+        - {x: -40.179993, y: 34.582855}
+        - {x: -82.17999, y: 7.582855}
+        - {x: -82.17999, y: -8.417145}
+        - {x: -57.179993, y: -33.417145}
+        - {x: 55.820007, y: -33.417145}
+        - {x: 62.820007, y: -27.417145}
+        - {x: 67.82001, y: -21.417145}
+        - {x: 78.82001, y: -7.417145}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.694275, y: 34.582855}
+        - {x: -81.694275, y: 16.582855}
+        - {x: -81.694275, y: -29.417145}
+        - {x: -58.694275, y: -33.417145}
+        - {x: 71.305725, y: -33.417145}
+        - {x: 83.305725, y: -14.417145}
+        - {x: 83.305725, y: 27.582855}
+        - {x: 57.305725, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_4
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.551453, y: 34.582855}
+        - {x: -81.55145, y: 8.582855}
+        - {x: -81.55145, y: -10.417145}
+        - {x: -60.551453, y: -33.417145}
+        - {x: 83.44855, y: -33.417145}
+        - {x: 83.44855, y: 18.582855}
+        - {x: 75.44855, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_5
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.602905, y: 34.582855}
+        - {x: -81.602905, y: 8.582855}
+        - {x: -81.602905, y: -5.417145}
+        - {x: -58.602905, y: -33.417145}
+        - {x: 63.397095, y: -33.417145}
+        - {x: 83.397095, y: -14.417145}
+        - {x: 83.397095, y: 15.582855}
+        - {x: 65.397095, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_6
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.885742, y: 34.582855}
+        - {x: -81.88574, y: 9.582855}
+        - {x: -81.88574, y: -4.417145}
+        - {x: -60.885742, y: -33.417145}
+        - {x: 61.114258, y: -33.417145}
+        - {x: 82.11426, y: -10.417145}
+        - {x: 82.11426, y: 7.582855}
+        - {x: 49.114258, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_7
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.937134, y: 34.582855}
+        - {x: -81.93713, y: 14.582855}
+        - {x: -81.93713, y: -3.4171448}
+        - {x: -75.93713, y: -22.417145}
+        - {x: -53.937134, y: -33.417145}
+        - {x: 62.062866, y: -33.417145}
+        - {x: 82.06287, y: -27.417145}
+        - {x: 82.06287, y: 16.582855}
+        - {x: 71.06287, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_8
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.988647, y: 34.582855}
+        - {x: -81.98865, y: 24.582855}
+        - {x: -81.98865, y: -13.417145}
+        - {x: -75.98865, y: -22.417145}
+        - {x: -54.988647, y: -33.417145}
+        - {x: 57.011353, y: -33.417145}
+        - {x: 82.01135, y: -13.417145}
+        - {x: 82.01135, y: 28.582855}
+        - {x: 78.01135, y: 34.582855}
+    - name: BLUE_Cavalier_Tank_(movement_Ver2)_9
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 9
+        width: 224
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.385742, y: 34.582855}
+        - {x: -35.614258, y: 34.582855}
+        - {x: -81.61426, y: 9.582855}
+        - {x: -81.61426, y: -26.417145}
+        - {x: -59.614258, y: -33.417145}
+        - {x: 73.38574, y: -33.417145}
+        - {x: 76.38574, y: -25.417145}
+        - {x: 83.38574, y: -2.4171448}
+        - {x: 83.38574, y: 13.582855}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

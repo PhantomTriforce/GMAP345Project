@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: c0121b4212b5f064d8eb2b243d03cc02
+timeCreated: 1472401399
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_Gungnir_Tank_(movement_Ver2)_0
+    21300002: RED_Gungnir_Tank_(movement_Ver2)_1
+    21300004: RED_Gungnir_Tank_(movement_Ver2)_2
+    21300006: RED_Gungnir_Tank_(movement_Ver2)_3
+    21300008: RED_Gungnir_Tank_(movement_Ver2)_4
+    21300010: RED_Gungnir_Tank_(movement_Ver2)_5
+    21300012: RED_Gungnir_Tank_(movement_Ver2)_6
+    21300014: RED_Gungnir_Tank_(movement_Ver2)_7
+    21300016: RED_Gungnir_Tank_(movement_Ver2)_8
+    21300018: RED_Gungnir_Tank_(movement_Ver2)_9
+    21300020: RED_Gungnir_Tank_(movement_Ver2)_10
+    21300022: RED_Gungnir_Tank_(movement_Ver2)_11
+    21300024: RED_Gungnir_Tank_(movement_Ver2)_12
+    21300026: RED_Gungnir_Tank_(movement_Ver2)_13
+    21300028: RED_Gungnir_Tank_(movement_Ver2)_14
+    21300030: RED_Gungnir_Tank_(movement_Ver2)_15
+    21300032: RED_Gungnir_Tank_(movement_Ver2)_16
+    21300034: RED_Gungnir_Tank_(movement_Ver2)_17
+    21300036: RED_Gungnir_Tank_(movement_Ver2)_18
+    21300038: RED_Gungnir_Tank_(movement_Ver2)_19
+    21300040: RED_Gungnir_Tank_(movement_Ver2)_20
+    21300042: RED_Gungnir_Tank_(movement_Ver2)_21
+    21300044: RED_Gungnir_Tank_(movement_Ver2)_22
+    21300046: RED_Gungnir_Tank_(movement_Ver2)_23
+    21300048: RED_Gungnir_Tank_(movement_Ver2)_24
+    21300050: RED_Gungnir_Tank_(movement_Ver2)_25
+    21300052: RED_Gungnir_Tank_(movement_Ver2)_26
+    21300054: RED_Gungnir_Tank_(movement_Ver2)_27
+    21300056: RED_Gungnir_Tank_(movement_Ver2)_28
+    21300058: RED_Gungnir_Tank_(movement_Ver2)_29
+    21300060: RED_Gungnir_Tank_(movement_Ver2)_30
+    21300062: RED_Gungnir_Tank_(movement_Ver2)_31
+    21300064: RED_Gungnir_Tank_(movement_Ver2)_32
+    21300066: RED_Gungnir_Tank_(movement_Ver2)_33
+    21300068: RED_Gungnir_Tank_(movement_Ver2)_34
+    21300070: RED_Gungnir_Tank_(movement_Ver2)_35
+    21300072: RED_Gungnir_Tank_(movement_Ver2)_36
+    21300074: RED_Gungnir_Tank_(movement_Ver2)_37
+    21300076: RED_Gungnir_Tank_(movement_Ver2)_38
+    21300078: RED_Gungnir_Tank_(movement_Ver2)_39
+    21300080: RED_Gungnir_Tank_(movement_Ver2)_40
+    21300082: RED_Gungnir_Tank_(movement_Ver2)_41
+    21300084: RED_Gungnir_Tank_(movement_Ver2)_42
+    21300086: RED_Gungnir_Tank_(movement_Ver2)_43
+    21300088: RED_Gungnir_Tank_(movement_Ver2)_44
+    21300090: RED_Gungnir_Tank_(movement_Ver2)_45
+    21300092: RED_Gungnir_Tank_(movement_Ver2)_46
+    21300094: RED_Gungnir_Tank_(movement_Ver2)_47
+    21300096: RED_Gungnir_Tank_(movement_Ver2)_48
+    21300098: RED_Gungnir_Tank_(movement_Ver2)_49
+    21300100: RED_Gungnir_Tank_(movement_Ver2)_50
+    21300102: RED_Gungnir_Tank_(movement_Ver2)_51
+    21300104: RED_Gungnir_Tank_(movement_Ver2)_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RED_Gungnir_Tank_(movement_Ver2)_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 288
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.453125, y: 26.5}
+        - {x: -66.546875, y: 26.5}
+        - {x: -93.546875, y: 2.5}
+        - {x: -93.546875, y: -6.5}
+        - {x: -92.546875, y: -8.5}
+        - {x: -82.546875, y: -22.5}
+        - {x: -62.546875, y: -39.5}
+        - {x: 72.453125, y: -39.5}
+        - {x: 96.453125, y: -14.5}
+        - {x: 96.453125, y: -0.5}
+        - {x: 94.453125, y: 0.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 292
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80.296875, y: 26.5}
+        - {x: -92.296875, y: 7.5}
+        - {x: -92.296875, y: -13.5}
+        - {x: -64.296875, y: -39.5}
+        - {x: 75.703125, y: -39.5}
+        - {x: 96.703125, y: -10.5}
+        - {x: 96.703125, y: 11.5}
+        - {x: 21.703125, y: 26.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 292
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.03125, y: 26.5}
+        - {x: -65.96875, y: 26.5}
+        - {x: -92.96875, y: 2.5}
+        - {x: -92.96875, y: -6.5}
+        - {x: -91.96875, y: -8.5}
+        - {x: -81.96875, y: -22.5}
+        - {x: -61.96875, y: -39.5}
+        - {x: 73.03125, y: -39.5}
+        - {x: 97.03125, y: -14.5}
+        - {x: 97.03125, y: -0.5}
+        - {x: 95.03125, y: 0.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_3
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 0
+        width: 287
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.60156, y: 26.5}
+        - {x: -91.60156, y: 4.5}
+        - {x: -91.60156, y: -8.5}
+        - {x: -69.60156, y: -33.5}
+        - {x: -62.601562, y: -39.5}
+        - {x: 74.39844, y: -39.5}
+        - {x: 97.39844, y: -13.5}
+        - {x: 97.39844, y: 13.5}
+        - {x: 23.398438, y: 26.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_4
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 0
+        width: 294
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.63281, y: 26.5}
+        - {x: -90.63281, y: 9.5}
+        - {x: -90.63281, y: -11.5}
+        - {x: -85.63281, y: -27.5}
+        - {x: -76.63281, y: -39.5}
+        - {x: 87.36719, y: -39.5}
+        - {x: 99.36719, y: -37.5}
+        - {x: 99.36719, y: 1.5}
+        - {x: 15.3671875, y: 26.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_5
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 0
+        width: 286
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.734375, y: 0.5}
+        - {x: 10.734375, y: 26.5}
+        - {x: -59.265625, y: 26.5}
+        - {x: -91.265625, y: 6.5}
+        - {x: -91.265625, y: -12.5}
+        - {x: -76.265625, y: -39.5}
+        - {x: 80.734375, y: -39.5}
+        - {x: 88.734375, y: -25.5}
+        - {x: 98.734375, y: -6.5}
+        - {x: 98.734375, y: 0.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_6
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 0
+        width: 291
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.34375, y: 26.5}
+        - {x: -60.65625, y: 26.5}
+        - {x: -90.65625, y: 1.5}
+        - {x: -90.65625, y: -11.5}
+        - {x: -63.65625, y: -39.5}
+        - {x: 76.34375, y: -39.5}
+        - {x: 89.34375, y: -23.5}
+        - {x: 99.34375, y: -5.5}
+        - {x: 99.34375, y: 1.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_7
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 0
+        width: 291
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.50781, y: 26.5}
+        - {x: -88.50781, y: 11.5}
+        - {x: -88.50781, y: -37.5}
+        - {x: -74.50781, y: -39.5}
+        - {x: 91.49219, y: -39.5}
+        - {x: 100.49219, y: -23.5}
+        - {x: 100.49219, y: 14.5}
+        - {x: 34.492188, y: 26.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_8
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 287
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.5, y: 26.5}
+        - {x: -87.5, y: 2.5}
+        - {x: -87.5, y: -12.5}
+        - {x: -60.5, y: -39.5}
+        - {x: 82.5, y: -39.5}
+        - {x: 98.5, y: -15.5}
+        - {x: 98.5, y: 12.5}
+        - {x: 14.5, y: 26.5}
+    - name: RED_Gungnir_Tank_(movement_Ver2)_9
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 0
+        width: 286
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.351562, y: 26.5}
+        - {x: -86.35156, y: 1.5}
+        - {x: -86.35156, y: -11.5}
+        - {x: -59.351562, y: -39.5}
+        - {x: 82.64844, y: -39.5}
+        - {x: 98.64844, y: -33.5}
+        - {x: 98.64844, y: 7.5}
+        - {x: 72.64844, y: 26.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

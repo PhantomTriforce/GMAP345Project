@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 5818f2c395ac44e41a62eb82b42fcaa8
+timeCreated: 1472400145
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RED_Cavalier_Tank_(movement_spirte_sheet)_0
+    21300002: RED_Cavalier_Tank_(movement_spirte_sheet)_1
+    21300004: RED_Cavalier_Tank_(movement_spirte_sheet)_2
+    21300006: RED_Cavalier_Tank_(movement_spirte_sheet)_3
+    21300008: RED_Cavalier_Tank_(movement_spirte_sheet)_4
+    21300010: RED_Cavalier_Tank_(movement_spirte_sheet)_5
+    21300012: RED_Cavalier_Tank_(movement_spirte_sheet)_6
+    21300014: RED_Cavalier_Tank_(movement_spirte_sheet)_7
+    21300016: RED_Cavalier_Tank_(movement_spirte_sheet)_8
+    21300018: RED_Cavalier_Tank_(movement_spirte_sheet)_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 7
+        width: 226
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.15428, y: 34.62}
+        - {x: -53.84572, y: 34.62}
+        - {x: -82.84572, y: 28.619999}
+        - {x: -82.84572, y: -19.380001}
+        - {x: -56.84572, y: -34.38}
+        - {x: 56.15428, y: -34.38}
+        - {x: 83.15428, y: -11.380001}
+        - {x: 83.15428, y: 11.619999}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 7
+        width: 226
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.62857, y: 34.62}
+        - {x: -82.62857, y: 10.619999}
+        - {x: -82.62857, y: -33.38}
+        - {x: -76.62857, y: -34.38}
+        - {x: 69.37143, y: -34.38}
+        - {x: 83.37143, y: -4.380001}
+        - {x: 83.37143, y: 11.619999}
+        - {x: 47.37143, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 7
+        width: 225
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.411438, y: 34.62}
+        - {x: -82.41144, y: 11.619999}
+        - {x: -82.41144, y: -10.380001}
+        - {x: -54.411438, y: -34.38}
+        - {x: 65.58856, y: -34.38}
+        - {x: 83.58856, y: -27.380001}
+        - {x: 83.58856, y: 10.619999}
+        - {x: 67.58856, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 7
+        width: 225
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.805725, y: 34.62}
+        - {x: -40.194275, y: 34.62}
+        - {x: -82.194275, y: 12.619999}
+        - {x: -82.194275, y: -3.380001}
+        - {x: -73.194275, y: -17.380001}
+        - {x: -52.194275, y: -32.38}
+        - {x: -48.194275, y: -34.38}
+        - {x: 58.805725, y: -34.38}
+        - {x: 67.805725, y: -31.380001}
+        - {x: 83.805725, y: -2.380001}
+        - {x: 83.805725, y: 11.619999}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_4
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 7
+        width: 226
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.782837, y: 34.62}
+        - {x: -82.78284, y: 9.619999}
+        - {x: -82.78284, y: -11.380001}
+        - {x: -62.782837, y: -34.38}
+        - {x: 70.21716, y: -34.38}
+        - {x: 83.21716, y: -8.380001}
+        - {x: 83.21716, y: 15.619999}
+        - {x: 51.217163, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_5
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 7
+        width: 225
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.33435, y: 34.62}
+        - {x: -82.33435, y: 10.619999}
+        - {x: -82.33435, y: -34.38}
+        - {x: 82.66565, y: -34.38}
+        - {x: 82.66565, y: 16.619999}
+        - {x: 63.66565, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_6
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 7
+        width: 225
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.38574, y: 34.62}
+        - {x: -82.38574, y: 31.619999}
+        - {x: -82.38574, y: -7.380001}
+        - {x: -56.385742, y: -34.38}
+        - {x: 55.614258, y: -34.38}
+        - {x: 82.61426, y: -16.380001}
+        - {x: 82.61426, y: 17.619999}
+        - {x: 69.61426, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_7
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 7
+        width: 226
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.66858, y: 34.62}
+        - {x: -82.66858, y: 10.619999}
+        - {x: -82.66858, y: -31.380001}
+        - {x: -70.66858, y: -34.38}
+        - {x: 77.33142, y: -34.38}
+        - {x: 83.33142, y: -23.380001}
+        - {x: 83.33142, y: 11.619999}
+        - {x: 48.33142, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_8
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 7
+        width: 225
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.21997, y: 34.62}
+        - {x: -82.21997, y: 7.619999}
+        - {x: -82.21997, y: -6.380001}
+        - {x: -65.21997, y: -34.38}
+        - {x: 82.78003, y: -34.38}
+        - {x: 82.78003, y: 23.619999}
+        - {x: 73.78003, y: 34.62}
+    - name: RED_Cavalier_Tank_(movement_spirte_sheet)_9
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 7
+        width: 226
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.154297, y: 34.62}
+        - {x: -56.845703, y: 34.62}
+        - {x: -82.8457, y: 10.619999}
+        - {x: -82.8457, y: -16.380001}
+        - {x: -54.845703, y: -34.38}
+        - {x: 58.154297, y: -34.38}
+        - {x: 83.1543, y: -13.380001}
+        - {x: 83.1543, y: 7.619999}
+        - {x: 82.1543, y: 7.619999}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
