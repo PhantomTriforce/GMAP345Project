@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\TankHealth.cs" />
      <Compile Include="Assets\Scripts\TankMovementTracker.cs" />
      <Compile Include="Assets\Scripts\TestMovementScript.cs" />
+     <Compile Include="Assets\Scripts\TextController.cs" />
      <Compile Include="Assets\Scripts\V2int.cs" />
      <Compile Include="Assets\Scripts\WheelJointCarMovement.cs" />
  <Reference Include="UnityEngine.UI">

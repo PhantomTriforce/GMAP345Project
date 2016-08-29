@@ -12,6 +12,6 @@ public class TextController : MonoBehaviour {
 
     public void OnClickGame()
     {
-        SceneManager.LoadScene("PatrickTest");
+        SceneManager.LoadScene("PatrickScene");
     }
 }
