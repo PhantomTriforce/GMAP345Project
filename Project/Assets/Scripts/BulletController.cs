@@ -74,7 +74,7 @@ public class BulletController : MonoBehaviour {
             {
                 SceneManager.LoadScene("BlueWin");
             }
-            if (coll.collider.tag == "Blue")
+            if (coll.collider.tag == "BluePlayer")
             {
                 SceneManager.LoadScene("RedWin");
             }

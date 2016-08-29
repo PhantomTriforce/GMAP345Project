@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\TextController.cs" />
     <Compile Include="Assets\Scripts\V2int.cs" />
     <Compile Include="Assets\Scripts\WheelJointCarMovement.cs" />
+    <Compile Include="Assets\TotalMovementDisplay.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
