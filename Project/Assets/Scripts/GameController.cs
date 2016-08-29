@@ -18,8 +18,8 @@ public class GameController : MonoBehaviour {
 		red1 = GameObject.Find("Red_1");
 		blue1 = GameObject.Find("Blue_1");
 
-        red1.GetComponent<TankMovementTracker>().totalDistance = -17f;
-        blue1.GetComponent<TankMovementTracker>().totalDistance = -17f;
+		red1.GetComponent<TankMovementTracker>().totalDistance = -31.79751f;
+		blue1.GetComponent<TankMovementTracker>().totalDistance = -31.75968f;
     }
 
 	void Update() {
