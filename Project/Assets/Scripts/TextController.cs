@@ -7,6 +7,11 @@ public class TextController : MonoBehaviour {
     
     public void OnClickHome()
     {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void OnClickGame()
+    {
         SceneManager.LoadScene("PatrickTest");
     }
 }
