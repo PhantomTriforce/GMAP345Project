@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\TextController.cs" />
      <Compile Include="Assets\Scripts\V2int.cs" />
      <Compile Include="Assets\Scripts\WheelJointCarMovement.cs" />
+     <Compile Include="Assets\TotalMovementDisplay.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
