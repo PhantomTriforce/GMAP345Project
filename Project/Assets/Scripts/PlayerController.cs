@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour
     private GameObject gameController;
 	private GameObject red1, blue1;
 
+	public AudioClip shoot;
+	private bool didShoot = false;
+
 	private float distanceRed, distanceBlue;
     
     void Start()
@@ -92,6 +95,11 @@ public class PlayerController : MonoBehaviour
 
     void UpdateShooting()
     {
+		if(!didShoot) {
+			AudioSource.PlayClipAtPoint(shoot, transform.position);
+			didShoot = true;
+		}
+
         timeShooting += Time.deltaTime;
         if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Space))
         {
