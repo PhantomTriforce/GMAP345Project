@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
     public int turn = 1;
@@ -8,6 +9,8 @@ public class GameController : MonoBehaviour {
     public bool moving = false;
 	public Button fireButton, moveButton;
 	public float distanceRed, distanceBlue;
+
+    public string winner;
 
 	private GameObject red1, blue1;
 
@@ -52,5 +55,10 @@ public class GameController : MonoBehaviour {
     public void OnClickMove() {
         moving = true;
         targetting = false;
+    }
+
+    public void OnClickHome()
+    {
+        SceneManager.LoadScene("Main");
     }
 }

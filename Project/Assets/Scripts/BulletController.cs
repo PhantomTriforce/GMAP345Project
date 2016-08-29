@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BulletController : MonoBehaviour {
 
@@ -44,7 +45,6 @@ public class BulletController : MonoBehaviour {
         {
             if (coll.collider.tag == "BluePlayer")
             {
-
                 healthDetection(coll);
             }
         }
@@ -70,6 +70,14 @@ public class BulletController : MonoBehaviour {
         if (healthBar.currentHealth <= 0)
         {
             Destroy(coll.gameObject);
+            if (coll.collider.tag == "RedPlayer")
+            {
+                SceneManager.LoadScene("BlueWin");
+            }
+            if (coll.collider.tag == "Blue")
+            {
+                SceneManager.LoadScene("RedWin");
+            }
         }
 
         Destroy(gameObject);
