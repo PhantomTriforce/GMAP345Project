@@ -14,4 +14,9 @@ public class TextController : MonoBehaviour {
     {
         SceneManager.LoadScene("PatrickScene");
     }
+
+	public void OnClickRules()
+	{
+		SceneManager.LoadScene("Rules");
+	}
 }
